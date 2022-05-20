@@ -10,3 +10,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+*{margin: 0;
+    padding: 0;
+    
+}
+.caja{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 10%;
+}
+.caja div{
+    display: inline-flex;
+    background-color: black;
+    color: white;
+    margin: 25px; 
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    align-items: center;
+    padding: 10px;
+}
